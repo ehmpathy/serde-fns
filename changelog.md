@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2024-07-28)
+
+
+### Features
+
+* **init:** initialize based on as-command ([fb70265](https://github.com/ehmpathy/serde-fns/commit/fb702658f9211ff58f01e38001da355a06ab543c))
+
 ## [1.0.1](https://github.com/ehmpathy/as-command/compare/v1.0.0...v1.0.1) (2024-05-26)
 
 
