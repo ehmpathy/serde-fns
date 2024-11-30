@@ -2,7 +2,7 @@
   "name": "serde-fns",
   "author": "ehmpathy",
   "description": "simple shapes and procedures for serde with a pit-of-success",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "ehmpathy/serde-fns",
   "homepage": "https://github.com/ehmpathy/serde-fns",
   "keywords": [

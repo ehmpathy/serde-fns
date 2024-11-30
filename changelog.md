@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ehmpathy/serde-fns/compare/v1.0.0...v1.1.0) (2024-11-30)
+
+
+### Features
+
+* **base64:** support base64 serde ([82e3e48](https://github.com/ehmpathy/serde-fns/commit/82e3e4865bfa2d3b6fc164d36dfed6960446e4f0))
+
 ## 1.0.0 (2024-07-28)
 
 
