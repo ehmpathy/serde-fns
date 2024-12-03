@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ehmpathy/serde-fns/compare/v1.1.0...v1.2.0) (2024-12-03)
+
+
+### Features
+
+* **uri:** add serial uri component shape & serde ([ad3c1f7](https://github.com/ehmpathy/serde-fns/commit/ad3c1f7c7e8de680b020a1b81492c12fe45b2304))
+
 ## [1.1.0](https://github.com/ehmpathy/serde-fns/compare/v1.0.0...v1.1.0) (2024-11-30)
 
 
