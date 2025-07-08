@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/ehmpathy/serde-fns/compare/v1.2.0...v1.3.0) (2025-07-08)
+
+
+### Features
+
+* **serializable:** narrow the shape of serializable for increased safety ([2432863](https://github.com/ehmpathy/serde-fns/commit/2432863589873f0980d3066a6019a9518ef02896))
+
+
+### Bug Fixes
+
+* **practs:** bump to latest best ([5fd4d4f](https://github.com/ehmpathy/serde-fns/commit/5fd4d4f8ae5af1932c29ba149d307a119a5b4c0c))
+
 ## [1.2.0](https://github.com/ehmpathy/serde-fns/compare/v1.1.0...v1.2.0) (2024-12-03)
 
 
