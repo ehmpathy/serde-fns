@@ -1,6 +1,6 @@
 import { withAssure } from 'type-fns';
 
-export type Serializable = any; // todo: narrow type
+import { Serializable } from './Serializable';
 
 /**
  * data serialized as json
