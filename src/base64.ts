@@ -14,8 +14,20 @@ export const isSerialBase64 = withAssure(
   },
 );
 
-export const asSerialBase64 = (input: string): SerialBase64 =>
-  isSerialBase64.assure(btoa(unescape(encodeURIComponent(input)))); // todo: make this work on node
+export const asSerialBase64 = (input: string): SerialBase64 => {
+  // if browser env, then use browser apis
+  if (typeof window !== 'undefined')
+    return isSerialBase64.assure(btoa(unescape(encodeURIComponent(input))));
 
-export const deSerialBase64 = (input: SerialBase64): string =>
-  decodeURIComponent(escape(window.atob(input)));
+  // else, use node apis
+  return isSerialBase64.assure(Buffer.from(input, 'utf8').toString('base64'));
+};
+
+export const deSerialBase64 = (input: SerialBase64): string => {
+  // if browser env, then use browser apis
+  if (typeof window !== 'undefined')
+    return decodeURIComponent(escape(window.atob(input)));
+
+  // else, use node apis
+  return Buffer.from(input, 'base64').toString('utf8');
+};
