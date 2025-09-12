@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/ehmpathy/serde-fns/compare/v1.3.0...v1.3.1) (2025-09-12)
+
+
+### Bug Fixes
+
+* **base64:** support base64 on node envs ([aa3de6a](https://github.com/ehmpathy/serde-fns/commit/aa3de6ad78efd4eacc2fbc2c7040ec73f0a5a11d))
+
 ## [1.3.0](https://github.com/ehmpathy/serde-fns/compare/v1.2.0...v1.3.0) (2025-07-08)
 
 
